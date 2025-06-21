@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#fefefe;
+    color: #333;
+    padding: 40px;
+    line-height: 1.75;
+}
+
+header{
+    text-align:center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #2a2a72;
+}
+
+.subtitle{
+    font-style:italic;
+    color: #777;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight: bold;
+    color: #2a2a72;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color:#8d6efd;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size:24px;
+    margin-bottom: 15px;
+    color: #2a2a72; 
+}
+
+.featured{
+    display:block;
+    margin: 20px auto;
+    border-radius:8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+images{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.images img{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul{
+    padding-left: 20px;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+dl dt{
+    font-weight: bold;
+    margin-top: 15px;
+    color:#555;
+}
+
+dl dd{
+    margin-left: 20px;
+    color: #666;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color:#f0f0f0 ;
+    color: #333;
+}
+
+select{
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align:center;
+    font-size: 14px;
+    color: #999;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
